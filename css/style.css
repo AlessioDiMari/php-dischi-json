@@ -1,0 +1,13 @@
+body{
+    background-color: #1D2D3C;
+}
+
+header{
+    min-height: 120px;
+    background-color: #06131F;
+}
+
+.my-card-bg{
+    background-color: #112030;
+    color: white;
+}
