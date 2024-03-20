@@ -5,6 +5,8 @@ createApp({
     data(){
         return{
             
+            disksList: [],
+
         }
 
     },
@@ -12,7 +14,8 @@ createApp({
     mounted() {
         
         axios.get('./server.php').then(res => {
-            console.log(res)
+            console.log(res.data);
+            this.disksList = res.data;
         });
     },
 
